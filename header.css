@@ -1,0 +1,113 @@
+#hdrproto1{
+    background-color: #9384D1;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 300px;
+}
+#hd1{
+    width: 20%;
+    padding-top: 5px;
+    padding-left: 1%;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-left: 3%;
+    background-image: url("https://picsum.photos/id/237/125/50");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#hd2{
+    width: 60%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#hd3{
+    width: 20%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+#hd2 input[type="text"]{
+    width: 80%;
+}
+#figurita1{
+    margin: 0;
+    
+}
+#figurita1 img{
+    
+}
+#logBtn{
+    background-color: lightgray;
+    border: 0;
+    height: 25px;
+}
+#signBtn{
+    background-color: #E5BEEC;
+    border: 0;
+    height: 25px;
+}
+#menubtn{
+    display: none;
+}
+@media (max-width:1000px){
+    #hd2{
+        width: 55%;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    #hd2 input[type="text"]{
+        width: 80%;
+    }
+    form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #hd3{
+        width: 25%;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:770px){
+    form{
+        margin-left: 2%;
+    }
+    .btn1{
+        display: none;
+    }
+    #menubtn{
+        display: inline-block;
+        border: 0;
+        line-height: 25px;
+        margin-right: 15%;
+    }
+    #hd3{
+        text-align: right;
+    }
+}
+@media (max-width:470px){
+    #hd1{
+        display: none;
+    }
+    #hd2{
+        width: 90%;
+    }
+    form{
+        margin-left: 1%;
+    }
+    #hd3{
+        width: 10%;
+    }
+    #hd2 input[type="text"]{
+        width: 80%;
+        line-height: 30px;
+    }
+    #menubtn{
+        margin-right: 100%;
+    }
+}
